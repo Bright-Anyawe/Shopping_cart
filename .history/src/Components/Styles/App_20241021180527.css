@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+imageContainer h4 {
+  max-width: 100px;
+}

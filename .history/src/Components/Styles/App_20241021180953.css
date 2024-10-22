@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container h4 {
+  display: flex;
+  max-width: 200px;
+}
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quantityContainer input {
+  height: 20px;
+  
+}

@@ -4,12 +4,12 @@ import { render, screen } from "@testing-library/react";
 import App from "../Layout/App";
 
 
-describe("something truthy and falsy", () => {
-  it("true to be true", () => {
-    expect(true).toBe(true);
-  });
+describe("App component", () => {
+  
 
-  it("false to be false", () => {
+  it("should render the correct heading", () => {
+
+    render(<App)
     expect(false).toBe(false);
   });
 });
