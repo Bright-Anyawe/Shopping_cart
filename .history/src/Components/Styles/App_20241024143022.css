@@ -1,0 +1,197 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container {
+  /* border-radius: 9px; */
+  display: flex;
+  /* border: 1px solid black; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 3px 4px 8px black;
+  width: 420px;
+  padding: 20px;
+  gap: 20px;
+  height: 250px;
+}
+
+
+.container h4 {
+  /* display: flex; */
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.additionalInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.cartNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  height: 25px;
+}
+
+.itemsTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* width: 250px; */
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* object-fit: contain; */
+  object-fit: contain;
+  object-position: 50% 50%;
+  border-radius: 9px;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.homePageImageHolder {
+  background-image: url("src/assets/person_holding_red_shirt.jpg");
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: start;
+}
+
+.quantityContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.quantityContainer input {
+  height: 20px;
+  width: 35px;
+  color: white;
+}
+
+.priceOrderEl {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.orderBtn {
+  width: 200px;
+  border-radius: 0;
+}
+
+input[type="number"]:hover::-webkit-inner-spin-button {
+  width: 19px;
+  height: 30px;
+}
+
+.loading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+button {
+  transition: 0.2s ease;
+  padding: 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+svg {
+  width: 30px;
+}
+
+.titleContainer {
+
+      display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+}
+
+.rateEl {
+  display: flex;
+}
+
+.rateEl svg {
+  width: 20px;
+}
+
+.shopCartContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  
+  width: 200px;
+}
+
+.itemsContainer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
