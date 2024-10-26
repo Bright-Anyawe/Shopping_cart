@@ -1,0 +1,20 @@
+.root-layout {
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 80px;
+}
+
+header {
+     grid-area: 1 / 1 / 2 ;
+     display: grid;
+     position: fixed;
+     gap: 36rem;
+     
+}
+
+
+
+main {
+     grid-area: 2 / 1  ;
+     
+}

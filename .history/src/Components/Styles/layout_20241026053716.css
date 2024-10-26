@@ -1,0 +1,6 @@
+.root-layout {
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 80px 100vh;
+}
+

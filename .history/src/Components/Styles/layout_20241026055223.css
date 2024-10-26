@@ -1,0 +1,31 @@
+.root-layout {
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 80px;
+}
+
+header {
+     grid-area: 1 / 1 / 2 ;
+     display: grid;
+     grid-template-columns: 100px ;
+     position: fixed;
+     /* gap: 36rem; */
+     
+}
+
+header h1 {
+
+
+
+}
+
+header nav {
+
+}
+
+
+
+main {
+     grid-area: 2 / 1  ;
+     
+}

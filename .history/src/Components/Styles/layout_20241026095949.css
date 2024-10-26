@@ -1,0 +1,131 @@
+
+
+
+@media (max-width: 1120px) and (min-width: 800px) {
+  div.root-layout {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px;
+  }
+
+  #root header {
+    grid-area: 1 / 1 / 2;
+    /* display: grid; */
+    grid-template-columns: 300px 780px;
+    /* position: fixed; */
+    /* gap: 0 43rem; */
+    /* gap: 36rem; */
+  }
+
+  #root header h1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+ #root header nav {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  main {
+    grid-area: 2 / 1/ 9 / 4;
+  }
+
+
+.homeHeadText {
+  padding: 50px;
+}
+
+div.welcomePageContainer h2 {
+  font-size: 2rem;
+}
+
+.welcomePageContainer p {
+  font-size: 1.2rem;
+}
+
+div.welcomePageContainer img {
+  width: 100%;
+  height: auto;
+   min-width: 100px;
+  min-height: 100px; */
+  object-fit: cover;
+}
+
+.ourOfferContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.ourOfferSubContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 100px;
+}
+
+.offerEl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free-fastContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.customerServiceContainer  {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.ourOfferContainer img {
+  width: 150px;
+  height: 150px;
+}
+
+
+}
+
+
+.root-layout {
+  /* display: grid; */
+  grid-template-columns: 100%;
+  grid-template-rows: 80px;
+}
+
+header {
+  grid-area: 1 / 1 / 2;
+  /* display: grid; */
+  grid-template-columns: 300px 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 35px;
+
+  /* gap: 0 43rem; */
+  /* gap: 36rem; */
+}
+
+header h1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+header nav {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+main {
+  grid-area: 2 / 1/ 9 / 4;
+}
+
+

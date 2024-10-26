@@ -1,0 +1,156 @@
+@media (max-width: 1120px) and (min-width: 800px) {
+  div.root-layout {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px;
+  }
+
+  #root header {
+    grid-area: 1 / 1 / 2;
+    /* display: grid; */
+    grid-template-columns: 300px 780px;
+    /* position: fixed; */
+    /* gap: 0 43rem; */
+    /* gap: 36rem; */
+  }
+
+  #root header h1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  #root header nav {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  main {
+    grid-area: 2 / 1/ 9 / 4;
+  }
+
+  .homeHeadText {
+    padding: 4px;
+    width: 50%;
+  }
+
+  div.welcomePageContainer h2 {
+    font-size: 2rem;
+  }
+
+  .welcomePageContainer p {
+    font-size: 1.2rem;
+  }
+
+  /* div.welcomePageContainer img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    min-height: 0;
+    object-fit: cover;
+  } */
+
+  div.imageContainer {
+    width: 100%;
+    height: auto;
+    background-image: url("src/assets/excited-african-woman-holding-shopping-bags-mobile-phone_.avif");
+    background-size: 100% 100%;
+    /* background-position: ; */
+    background-position: center;
+
+    object-fit: contain;
+    object-position: 50% 50%;
+    border-radius: 9px;
+  }
+
+  div.ourOfferContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+  .ourOfferSubContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+  }
+
+  h1.offerEl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    color: rgb(240, 103, 61);
+  }
+
+  .ourOfferContainer img {
+    width: 70px;
+    height: auto;
+  }
+
+  div.free-fastContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+  }
+
+  div.free-fastContainer h2 {
+    font-size: 1.2rem;
+  }
+
+  div.customerServiceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+  }
+
+    div.customerServiceContainer h2 {
+          font-size: 1.2rem;
+          text-align: center;
+
+    }
+
+    footer p {
+      font-size: 1.5rem;
+    }
+}
+
+.shopText {
+  color: 
+}
+
+.root-layout {
+  /* display: grid; */
+  grid-template-columns: 100%;
+  grid-template-rows: 80px;
+}
+
+header {
+  grid-area: 1 / 1 / 2;
+  /* display: grid; */
+  grid-template-columns: 300px 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 35px;
+
+  /* gap: 0 43rem; */
+  /* gap: 36rem; */
+}
+
+header h1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+header nav {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+main {
+  grid-area: 2 / 1/ 9 / 4;
+}
