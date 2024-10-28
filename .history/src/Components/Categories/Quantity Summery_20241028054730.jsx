@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useContext } from "react";
 import { QtySummeryContext } from "../Layout/App";
+import { Delete } from "./Delete";
 
 export default function QuantitySummery() {
   const { qtySummery } = useContext(QtySummeryContext);
@@ -57,10 +58,15 @@ export default function QuantitySummery() {
                   <img src={summery.productUrl} alt={summery.productTitle} />
 
                   <div className="summeryTextContainer">
-                    <h4>{summery.productTitle}</h4>
-                    <div className="">{`$${summery.productPrice}`}</div>
+                    <div className="productPrice_" >
+                      <h4>{summery.productTitle}</h4>
+                      <div className="">{`$${summery.productPrice}`}</div>
+                    </div>
 
-                    <h5>{`Qty: ${summery.QtySelected}`}</h5>
+                    <div className="delQtySelectedContainer">
+                      <h5>{`Qty: ${summery.QtySelected}`}</h5>
+                      <Delete />
+                    </div>
                   </div>
                 </li>
               );
