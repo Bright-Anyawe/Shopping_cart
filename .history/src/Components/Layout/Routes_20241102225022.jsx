@@ -5,7 +5,7 @@ import Shop from "./Shop.jsx";
 // import Help from "../Pages/Help";
 // import Contact from "../Pages/Contact";
 // import Faq from "../Pages/Faq";
-import ErrorPage from "./ErrorPage.jsx";
+
 import MenClothing from "../Categories/MenClothing"; // import { element } from "prop-types";
 import WomenClothing from "../Categories/WomenClothing";
 import Electronics from "../Categories/Electronics";
