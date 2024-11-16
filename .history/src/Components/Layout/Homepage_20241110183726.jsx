@@ -66,7 +66,7 @@ const HomePage = () => {
 
           <div className="creator">
             <p>Made By</p>{" "}
-            <NavLink to="https://github.com/Bright-Anyawe/Shopping_cart">
+            <NavLink>
               Bright Anyawe{" "}
               <svg
                 href="https://github.com/Bright-Anyawe/Shopping_cart"
