@@ -95,7 +95,7 @@ img {
 .welcomePageContainer {
   display: flex;
   padding: 20px;
-      gap: 20px;
+  
 }
 
 .homeHeadText {
@@ -107,9 +107,8 @@ img {
 }
 
 .welcomePageContainer p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-
 }
 
 .welcomePageContainer img {
@@ -165,7 +164,7 @@ img {
 }
 
 .itemsContainer li a {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 li {

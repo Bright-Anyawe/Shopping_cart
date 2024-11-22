@@ -101,10 +101,6 @@
   div.homeHeadText {
     padding: 4px;
     width: 100%;
-    display: flex;
-        flex-direction: column;
-        gap: 50px;
-                margin-top: 30px;
   }
 
   div.welcomePageContainer {
@@ -120,20 +116,17 @@
 
   div.welcomePageContainer p {
     font-size: 1.1rem;
-    text-align: center;
   }
 
   div.shoppingMallPicture {
     background-image: url(../../assets/perosn_selling_to_client.jpg);
-     width: 300px; 
-  height: 300px; 
-background-size: contain;
-  background-repeat: no-repeat; 
-  background-position: center;
-  border-radius: 9px; 
-  margin: 10px;
-  display: flex;
-        align-self: center;
+     width: 300px;
+  height: 200px;
+  background-size: contain; /* Fits image within the container */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: center; /* Centers the image */
+    border-radius: 9px;
+    margin: 10px;
   }
 
   div.homePageContainer {
@@ -162,7 +155,6 @@ background-size: contain;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 500px;
     /* align-items: center; */
     /* justify-content: center; */
   }
@@ -173,7 +165,7 @@ background-size: contain;
     justify-content: space-between;
     align-items: center;
     padding-inline: 0px;
-    gap: 100px;
+    gap: 30px;
     margin: 0 0 30px 0;
   }
 
@@ -456,9 +448,6 @@ background-size: contain;
   div.homeHeadText {
     padding: 4px;
     width: 100%;
-    display: flex;
-        flex-direction: column;
-        gap: 50px;
   }
 
   div.welcomePageContainer {
@@ -495,7 +484,7 @@ background-size: contain;
   }
 
   div.homePageImageContainer {
-    width: 75%;
+    width: 100%;
     height: auto;
     background-image: url("src/assets/Items_In_cart.jpg");
 
@@ -959,7 +948,7 @@ background-size: contain;
   }
 
   div.welcomePageContainer p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   /* div.welcomePageContainer img {

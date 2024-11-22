@@ -104,7 +104,6 @@
     display: flex;
         flex-direction: column;
         gap: 50px;
-                margin-top: 30px;
   }
 
   div.welcomePageContainer {
@@ -495,7 +494,7 @@ background-size: contain;
   }
 
   div.homePageImageContainer {
-    width: 75%;
+    width: 100%;
     height: auto;
     background-image: url("src/assets/Items_In_cart.jpg");
 
@@ -959,7 +958,7 @@ background-size: contain;
   }
 
   div.welcomePageContainer p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   /* div.welcomePageContainer img {
